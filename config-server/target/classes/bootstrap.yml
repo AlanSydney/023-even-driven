@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/****/spring-cloud-config-server-repository
-          default-label: main
-          username: ****
-          password: ****
-          clone-on-start: true
+          uri: file://home/alan/java-udemy/023-even-driven/config-server-repository
+#          default-label: main
+#          username: ****
+#          password: ****
+#          clone-on-start: true
     fail-fast: true
